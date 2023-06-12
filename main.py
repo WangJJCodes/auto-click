@@ -46,7 +46,7 @@ def new(button, time):
 
 
 def start():
-    time = float(0.05)  #默认点击间隔0.05
+    time = float(0.025)  #默认点击间隔0.05
     if mouse.get() == LEFT:
         button = pynput.mouse.Button.left
     elif mouse.get() == RIGHT:
